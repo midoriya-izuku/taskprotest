@@ -1,4 +1,5 @@
 import firebase from "firebase/app";
+import "firebase/database"
 var firebaseConfig = {
     apiKey: "AIzaSyDp9YNJJxP2kI3fT2mW38WgaszDOhG2v9s",
     authDomain: "taskpro-test-9b74f.firebaseapp.com",
@@ -10,4 +11,5 @@ var firebaseConfig = {
   };
 // Initialize Firebase
 var app = firebase.initializeApp(firebaseConfig);
+export const db = app.database()
 export default app;

@@ -1,0 +1,6 @@
+export const SET_USERS = "SET_USERS"
+export const USERS_LOADING = "USERS_LOADING"
+export const USERS_ERROR = "USERS_ERROR"
+export const SET_ACCOUNTS = "SET_ACCOUNTS"
+export const ACCOUNTS_LOADING = "ACCOUNTS_LOADING"
+export const ACCOUNTS_ERROR = "ACCOUNTS_ERROR"
